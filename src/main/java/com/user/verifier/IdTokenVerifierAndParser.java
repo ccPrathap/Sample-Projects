@@ -39,11 +39,10 @@ public class IdTokenVerifierAndParser {
         return null;*/
     }
     
-    static HttpTransport newProxyTransport() throws GeneralSecurityException, IOException {
+    /*static HttpTransport newProxyTransport() throws GeneralSecurityException, IOException {
         NetHttpTransport.Builder builder = new NetHttpTransport.Builder();
         builder.trustCertificates(GoogleUtils.getCertificateTrustStore());
-        builder.setProxy(new Proxy(Proxy.Type.HTTP, new InetSocketAddress("proxy.cognizant.com", 6050)));
+        builder.setProxy(new Proxy(Proxy.Type.HTTP, new InetSocketAddress("host", port)));
         return builder.build();
-      }
-
+      }*/
 }
