@@ -10,7 +10,7 @@
 		<java-version>1.7</java-version>
 		<org.springframework-version>4.0.1.RELEASE</org.springframework-version>
 		<hibernate.version>4.1.0.Final</hibernate.version>
-		<jackson.databind-version>2.9.9</jackson.databind-version>
+		<jackson.databind-version>2.9.10.1</jackson.databind-version>
 	</properties>
 	<dependencies>
 	
